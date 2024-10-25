@@ -60,6 +60,7 @@ public class TeamTest {
         assert(!(t1.equals(t2)));
 
         t2.setName("foo");
+        assert(!(t1.equals(t2)));
     }
 
     @Test
